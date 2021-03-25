@@ -1,0 +1,25 @@
+/**
+ * 
+ */
+package functional;
+
+/**
+ * @author tulis
+ *
+ */
+public class IF {
+	
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int a=20;
+		int b=21;
+		if(a%b==0);{
+		System.out.print("a is an even number");
+
+	}
+
+}
+}

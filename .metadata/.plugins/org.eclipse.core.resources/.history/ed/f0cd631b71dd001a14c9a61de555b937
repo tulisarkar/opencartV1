@@ -1,0 +1,21 @@
+package com.org.learningMaven.myMavenProject1;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.BeforeTest;
+
+public class TP_001 {
+	
+	String baseurl="https://qatest.twoplugs.com";
+	WebDriver driver;
+	
+	@BeforeTest
+	public void launchwebsite() {
+	System.setProperty("webdriver.chrome.driver", "./Drivers\\chromedriver.exe");
+	driver=new ChromeDriver();
+	driver.get(baseurl);
+	driver.manage().window().maximize();
+	}
+	
+ 
+}

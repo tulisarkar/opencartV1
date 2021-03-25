@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="crossbrowser" thread-count="2" parallel="tests">
+  <test name="chrometest">
+  	<parameter name="browser" value="chrome"></parameter>
+    <classes>
+      <class name="integrationtesting.coursework12"/>
+    </classes>
+   </test>
+   <test name="firefoxtest">
+  	<parameter name="browser" value="firefox"></parameter>
+    <classes>
+      <class name="integrationtesting.coursework12"/>
+    </classes>
+   </test>
+ </suite>

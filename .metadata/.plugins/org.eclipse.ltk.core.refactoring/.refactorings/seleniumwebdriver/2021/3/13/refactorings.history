@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Log4j2.xml&apos; to &apos;opencartV1/src/test/resources&apos;&#x0D;&#x0A;- Original project: &apos;seleniumwebdriver&apos;&#x0D;&#x0A;- Destination element: &apos;opencartV1/src/test/resources&apos;&#x0D;&#x0A;- Original element: &apos;Log4j2.xml&apos;" description="Copy file" destination="=opencartV1/src\/test\/resources" element1="resources/Log4j2.xml" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1616459887215" units="0" version="1.0"/>
+</session>

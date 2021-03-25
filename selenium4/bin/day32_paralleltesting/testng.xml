@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite thread-count="2" name="ParallelSuite" parallel="tests">
+  
+  <test  name="chrometest">
+  <parameter name="browser" value="chrome"/>
+  <parameter name="app" value="https://opensource-demo.orangehrmlive.com"/>
+    <classes>
+      <class name="day32_paralleltesting.paralleltest"/>
+    </classes>
+  </test> 
+  
+   <test  name="edgetest">
+  <parameter name="browser" value="edge"/>
+   <parameter name="app" value="https://opensource-demo.orangehrmlive.com"/>
+    <classes>
+      <class name="day32_paralleltesting.paralleltest"/>
+    </classes>
+  </test> 
+  
+   <test  name="firefoxtest">
+  <parameter name="browser" value="firefox"/>
+   <parameter name="app" value="https://opensource-demo.orangehrmlive.com"/>
+    <classes>
+      <class name="day32_paralleltesting.paralleltest"/>
+    </classes>
+  </test> 
+
+</suite> 

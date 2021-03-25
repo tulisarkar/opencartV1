@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Tye suite">
+  <test name="Tye test">
+    <classes>
+      <class name="com.org.learningMaven.myMavenProject.NewTest"/>
+      <class name="com.org.learningMaven.myMavenProject.NewTest2"/>
+      <class name="regression.NewTest3"/>
+    </classes>
+  </test> <!-- Default test -->
+</suite> <!-- Default suite -->

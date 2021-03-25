@@ -1,0 +1,16 @@
+19:47:57.645 [main] INFO  Log4jLogging - Chrome Browser got launched
+19:47:59.179 [main] INFO  Log4jLogging - opencart Application got opened
+19:47:59.314 [main] INFO  Log4jLogging - Browser got maximized
+19:48:00.405 [main] INFO  Log4jLogging - Register link got clicked
+19:48:00.496 [main] INFO  Log4jLogging - Provided First Name
+19:48:00.589 [main] INFO  Log4jLogging - Provided Last Name
+19:48:00.699 [main] INFO  Log4jLogging - Provided Email
+19:48:00.807 [main] INFO  Log4jLogging - Provided Telephone
+19:48:00.901 [main] INFO  Log4jLogging - Provided Password
+19:48:00.982 [main] INFO  Log4jLogging - Provided Confirm Password
+19:48:01.051 [main] INFO  Log4jLogging - Agreed privacy policy
+19:48:01.051 [main] DEBUG Log4jLogging - Capturing API calls
+19:48:02.213 [main] INFO  Log4jLogging - Continue link got clicked
+19:48:02.244 [main] INFO  Log4jLogging - Confirmation message captured
+19:48:02.244 [main] ERROR Log4jLogging - Error: User Not Registered
+19:48:02.340 [main] INFO  Log4jLogging - Chrome Browser got Closed

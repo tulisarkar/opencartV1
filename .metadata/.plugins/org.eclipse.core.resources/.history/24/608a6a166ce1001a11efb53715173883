@@ -1,0 +1,7 @@
+package com.org.learningMaven.myMavenProject1;
+
+import org.testng.annotations.Test;
+
+public class TP_023 {
+  
+}

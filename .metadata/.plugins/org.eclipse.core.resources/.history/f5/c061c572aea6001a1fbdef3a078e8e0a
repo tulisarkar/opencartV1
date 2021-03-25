@@ -1,0 +1,35 @@
+
+public class WHILE {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//int i=10;
+		//while (i>=0) {
+			//System.out.println(i);
+			//i--;
+		
+		
+		  //int i=12345;
+		//while ( i !=0)
+		//{
+		//int d=i%10;
+		//i=i/10;
+		//System.out.println(d);
+		
+		
+		int i=10;
+		do {
+			System.out.println(i);
+		}
+		while(i>0);
+		i--;
+	}
+		}
+		
+		
+		
+		}
+
+	}
+
+

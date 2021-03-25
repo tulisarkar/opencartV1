@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<suite name="ExtentSuite">
+  <listeners>
+  <listener class-name="day33_ExtentReports.ReportingUtility"/>
+   </listeners>
+  
+  <test thread-count="5" name="ExtentTest">
+       <classes>
+      <class name="day33_ExtentReports.LoginTest"/>
+    </classes>
+  </test> 
+</suite> 

@@ -1,0 +1,75 @@
+package com.org.learningMaven.myMavenProject1;
+
+import static org.testng.Assert.assertEquals;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Assert;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
+
+public class TP_013 {
+	String baseurl="https://qatest.twoplugs.com";
+	WebDriver driver;
+	@BeforeTest
+	public void launchbrowser()
+	{
+	System.setProperty("webdriver.chrome.driver", "./Drivers\\chromedriver.exe");
+	driver=new ChromeDriver();
+	driver.get(baseurl);
+	driver.manage().window().maximize();
+	}
+	@BeforeMethod
+	public void verifyhomepagetitle()
+	{
+		 String expected="twoPLUGS - A plug for your Service and another for your Need";
+			String actual= driver.getTitle();
+			Assert.assertEquals(actual,expected);
+	}
+	
+	//@AfterMethod
+	//public void gobackhome()
+	//{
+		//driver.findElement(By.xpath("//a[@class='navbar-brand']//img")).click();
+		// driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+	// }
+	@AfterTest
+	public void closewebsite()
+	{
+	driver.close();
+	}
+	
+	@Test(priority=0)
+	public void login()
+	{
+		driver.findElement(By.xpath("//span[contains(text(),'LOG IN')]")).click();
+		 driver.findElement(By.xpath("//input[@id='signInEmail']")).sendKeys(" fab@mailinator.com"); 
+		driver.findElement(By.xpath("//input[@id='signInPassword']")).sendKeys("WinterIsComing@123");
+		driver.findElement(By.xpath("//span[contains(text(),'LOG IN')]")).click(); 
+		String expected="twoPLUGS - A plug for your Service and another for your Need";
+		String actual= driver.getTitle();
+		Assert.assertEquals(actual,expected);
+	}
+	@Test(priority=1)
+	public void bidforneed()
+	{
+		driver.findElement(By.xpath("//input[@id='exampleInputAmount']")).sendKeys("baking tutorials for kids");
+		driver.findElement(By.xpath("//span[@class='w-icons-search']")).click();
+		driver.findElement(By.xpath("//tr[1]//td[1]//div[1]//div[2]//div[1]//a[1]")).click();
+		driver.findElement(By.xpath("//span[contains(text(),'I can do this')]")).click();
+		driver.findElement(By.xpath("//input[@id='price']")).sendKeys("50");
+		driver.findElement(By.xpath("//form[@id='purchase_contract_form']//div[@id='service-styler']//div[@class='jq-selectbox__trigger']")).click();
+		driver.findElement(By.xpath("//form[@id='purchase_contract_form']//li[contains(text(),'Baking Classes')]")).click();
+		driver.findElement(By.xpath("//div[@id='agreeterm-styler']")).click();
+		driver.findElement(By.xpath("//span[contains(text(),'send')]")).click();
+		String exp="https://qatest.twoplugs.com/postContract";
+		String act=driver.getCurrentUrl();
+		Assert.assertEquals(act, exp);
+	}
+}

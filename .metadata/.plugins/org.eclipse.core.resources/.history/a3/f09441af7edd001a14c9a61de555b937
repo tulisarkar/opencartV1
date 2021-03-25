@@ -1,0 +1,49 @@
+package com.org.learningMaven.myMavenProject1;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Assert;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
+
+public class TP_002 {
+	
+	String baseurl = "https://qatest.twoplugs.com";
+	WebDriver driver;
+	
+	@BeforeTest
+	public void launchwebsite()
+	{
+	System.setProperty("webdriver.chrome.driver", "./Drivers\\chromedriver.exe");
+	driver=new ChromeDriver();
+	driver.get(baseurl);
+	driver.manage().window().maximize();
+	}
+	@BeforeMethod
+	public void verifypagetitle()
+	{
+		String expected="twoPLUGS - A plug for your Service and another for your Need";
+		String actual= driver.getTitle();
+		Assert.assertEquals(actual,expected);
+	}
+	@AfterMethod
+	public void gotohomepage()
+	{
+		driver.findElement(By.xpath("//a[@class='logo w-icons-logotype']//img")).click();
+	}
+  @AfterTest
+  public void closewebsite()
+  {
+	  driver.quit();
+  }
+  @Test
+  public void loginwithvalidcredential()
+  {
+	  //driver.findElement(By.xpath("//span[contains(text(),'LOG in')]")).click();
+	  System.out.println("a");
+  }
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name = "crossbrowser testing">
+<parameter name ="browser" value ="chrome"></parameter>
+<test name = " chrometest">
+<classes>
+<class name = "integrationtesting.coursework12">
+</class>
+</classes>
+</test>
+<parameter name ="browser" value ="firefox"></parameter>
+<test name = " firefox">
+<classes>
+<class name = "integrationtesting.coursework12">
+</class>
+</classes>
+</test>
+</suite>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="OpenCart Test Suite" thread-count="3" parallel="tests">
+
+	<test name="OpenCartTests">
+	<parameter name="browser" value="chrome"/>
+		<classes>
+			<class name="testCases.TC_001_AccountRegistration"/>
+			<!-- Here specify tests which you would like to execute on chrome -->
+		</classes>
+	</test>
+</suite>
+ 

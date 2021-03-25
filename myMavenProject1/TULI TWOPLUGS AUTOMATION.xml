@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="twoplugs">
+<test name="automation tests">
+<classes>
+<class name="com.org.learningMaven.myMavenProject1.TP_001"/>
+<class name="com.org.learningMaven.myMavenProject1.TP_002"/>
+<class name="com.org.learningMaven.myMavenProject1.TP_003"/>
+<class name="com.org.learningMaven.myMavenProject1.TP_004"/>
+<class name="com.org.learningMaven.myMavenProject1.TP_005"/>
+<class name="com.org.learningMaven.myMavenProject1.TP_006"/>
+<class name="com.org.learningMaven.myMavenProject1.TP_007"/>
+<class name="com.org.learningMaven.myMavenProject1.TP_008"/>
+<class name="com.org.learningMaven.myMavenProject1.TP_009"/>
+<class name="com.org.learningMaven.myMavenProject1.TP_010"/>
+<class name="com.org.learningMaven.myMavenProject1.TP_011"/>
+<class name="com.org.learningMaven.myMavenProject1.TP_013"/>
+<class name="com.org.learningMaven.myMavenProject1.TP_014"/>
+<class name="com.org.learningMaven.myMavenProject1.TP_015"/>
+<class name="com.org.learningMaven.myMavenProject1.TP_016"/>
+<class name="com.org.learningMaven.myMavenProject1.TP_017"/>
+<class name="com.org.learningMaven.myMavenProject1.TP_018"/>
+<class name="com.org.learningMaven.myMavenProject1.TP_019"/>
+<class name="com.org.learningMaven.myMavenProject1.TP_021"/>
+<class name="com.org.learningMaven.myMavenProject1.TP_022"/>
+<class name="com.org.learningMaven.myMavenProject1.TP_023"/>
+<class name="com.org.learningMaven.myMavenProject1.TP_024"/>
+<class name="com.org.learningMaven.myMavenProject1.TP_025"/>
+</classes>
+</test>
+</suite>

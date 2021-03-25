@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="crossBrowsersuite" duration-ms="29907" started-at="2020-07-04T16:35:41Z" finished-at="2020-07-04T16:36:11Z">
+    <groups>
+    </groups>
+    <test name="chrometest" duration-ms="14426" started-at="2020-07-04T16:35:41Z" finished-at="2020-07-04T16:35:55Z">
+      <class name="RegressionTest.Crossbrowser">
+        <test-method status="PASS" signature="launchWebsite(java.lang.String)[pri:0, instance:RegressionTest.Crossbrowser@ae45eb6]" name="launchWebsite" is-config="true" duration-ms="6819" started-at="2020-07-04T12:35:41Z" finished-at="2020-07-04T12:35:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchWebsite -->
+        <test-method status="PASS" signature="verifyHomepageTitle()[pri:0, instance:RegressionTest.Crossbrowser@ae45eb6]" name="verifyHomepageTitle" is-config="true" duration-ms="11" started-at="2020-07-04T12:35:48Z" finished-at="2020-07-04T12:35:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomepageTitle -->
+        <test-method status="PASS" signature="login()[pri:0, instance:RegressionTest.Crossbrowser@ae45eb6]" name="login" duration-ms="5729" started-at="2020-07-04T12:35:48Z" finished-at="2020-07-04T12:35:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="gobackHome()[pri:0, instance:RegressionTest.Crossbrowser@ae45eb6]" name="gobackHome" is-config="true" duration-ms="451" started-at="2020-07-04T12:35:53Z" finished-at="2020-07-04T12:35:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gobackHome -->
+        <test-method status="PASS" signature="verifyHomepageTitle()[pri:0, instance:RegressionTest.Crossbrowser@ae45eb6]" name="verifyHomepageTitle" is-config="true" duration-ms="10" started-at="2020-07-04T12:35:54Z" finished-at="2020-07-04T12:35:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomepageTitle -->
+        <test-method status="PASS" signature="bookTicket()[pri:1, instance:RegressionTest.Crossbrowser@ae45eb6]" name="bookTicket" duration-ms="1" started-at="2020-07-04T12:35:54Z" finished-at="2020-07-04T12:35:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookTicket -->
+        <test-method status="PASS" signature="gobackHome()[pri:0, instance:RegressionTest.Crossbrowser@ae45eb6]" name="gobackHome" is-config="true" duration-ms="394" started-at="2020-07-04T12:35:54Z" finished-at="2020-07-04T12:35:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gobackHome -->
+        <test-method status="PASS" signature="closeWebsite()[pri:0, instance:RegressionTest.Crossbrowser@ae45eb6]" name="closeWebsite" is-config="true" duration-ms="980" started-at="2020-07-04T12:35:54Z" finished-at="2020-07-04T12:35:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWebsite -->
+      </class> <!-- RegressionTest.Crossbrowser -->
+    </test> <!-- chrometest -->
+    <test name="firefoxtest" duration-ms="15452" started-at="2020-07-04T16:35:55Z" finished-at="2020-07-04T16:36:11Z">
+      <class name="RegressionTest.Crossbrowser">
+        <test-method status="PASS" signature="launchWebsite(java.lang.String)[pri:0, instance:RegressionTest.Crossbrowser@464bee09]" name="launchWebsite" is-config="true" duration-ms="6661" started-at="2020-07-04T12:35:55Z" finished-at="2020-07-04T12:36:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchWebsite -->
+        <test-method status="PASS" signature="verifyHomepageTitle()[pri:0, instance:RegressionTest.Crossbrowser@464bee09]" name="verifyHomepageTitle" is-config="true" duration-ms="4" started-at="2020-07-04T12:36:02Z" finished-at="2020-07-04T12:36:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomepageTitle -->
+        <test-method status="PASS" signature="login()[pri:0, instance:RegressionTest.Crossbrowser@464bee09]" name="login" duration-ms="5358" started-at="2020-07-04T12:36:02Z" finished-at="2020-07-04T12:36:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="gobackHome()[pri:0, instance:RegressionTest.Crossbrowser@464bee09]" name="gobackHome" is-config="true" duration-ms="569" started-at="2020-07-04T12:36:07Z" finished-at="2020-07-04T12:36:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gobackHome -->
+        <test-method status="PASS" signature="verifyHomepageTitle()[pri:0, instance:RegressionTest.Crossbrowser@464bee09]" name="verifyHomepageTitle" is-config="true" duration-ms="24" started-at="2020-07-04T12:36:08Z" finished-at="2020-07-04T12:36:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomepageTitle -->
+        <test-method status="PASS" signature="bookTicket()[pri:1, instance:RegressionTest.Crossbrowser@464bee09]" name="bookTicket" duration-ms="2" started-at="2020-07-04T12:36:08Z" finished-at="2020-07-04T12:36:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookTicket -->
+        <test-method status="PASS" signature="gobackHome()[pri:0, instance:RegressionTest.Crossbrowser@464bee09]" name="gobackHome" is-config="true" duration-ms="488" started-at="2020-07-04T12:36:08Z" finished-at="2020-07-04T12:36:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gobackHome -->
+        <test-method status="PASS" signature="closeWebsite()[pri:0, instance:RegressionTest.Crossbrowser@464bee09]" name="closeWebsite" is-config="true" duration-ms="2341" started-at="2020-07-04T12:36:08Z" finished-at="2020-07-04T12:36:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWebsite -->
+      </class> <!-- RegressionTest.Crossbrowser -->
+    </test> <!-- firefoxtest -->
+  </suite> <!-- crossBrowsersuite -->
+</testng-results>

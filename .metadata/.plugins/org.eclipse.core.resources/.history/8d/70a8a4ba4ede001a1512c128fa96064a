@@ -1,0 +1,56 @@
+package com.org.learningMaven.myMavenProject1;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.Select;
+import org.testng.Assert;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
+
+public class TP_006 {
+	 String baseurl="https://qatest.twoplugs.com";
+	 WebDriver driver;
+	 
+	 @BeforeTest
+	 public void launchwebsite()
+	 {
+		 System.setProperty("webdriver.chrome.driver", "./Drivers\\chromedriver.exe");
+		 driver=new ChromeDriver();
+		 driver.get(baseurl);
+		 driver.manage().window().maximize();
+	 }
+	 @BeforeMethod
+	 public void login()
+	 {
+		 driver.findElement(By.xpath("//span[contains(text(),'LOG IN')]")).click();
+		 driver.findElement(By.xpath("//input[@id='signInEmail']")).sendKeys("johny@mailinator.com"); 
+			driver.findElement(By.xpath("//input[@id='signInPassword']")).sendKeys("qatest2plugs");
+			driver.findElement(By.xpath("//span[contains(text(),'LOG IN')]")).click();
+			String expurl="https://qatest.twoplugs.com/home";
+			String acturl=driver.getCurrentUrl();
+			Assert.assertEquals(expurl,acturl); 
+	 }
+	 
+	 @AfterTest
+	 public void closewebsite() {
+		 driver.close();
+	 }
+	  @Test
+
+	  public void searchforuser()
+	  {
+		  driver.findElement(By.xpath("//input[@id='exampleInputAmount']")).sendKeys("fab");
+		  driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+		  WebElement mouse = driver.findElement(By.xpath("//input[@id='exampleInputAmount']"));
+		  Actions actions = new Actions(driver);
+		  actions.moveToElement(mouse);
+		  actions.click().build().perform();
+}
+}

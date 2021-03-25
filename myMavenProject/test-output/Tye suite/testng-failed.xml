@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Tye suite]">
+  <test name="Tye test(failed)">
+    <classes>
+      <class name="com.org.learningMaven.myMavenProject.NewTest">
+        <methods>
+          <include name="launchWebsite"/>
+          <include name="verifyHomepageTitle"/>
+          <include name="login"/>
+          <include name="bookTicket"/>
+          <include name="gobackHome"/>
+          <include name="closeWebsite"/>
+        </methods>
+      </class> <!-- com.org.learningMaven.myMavenProject.NewTest -->
+      <class name="regression.NewTest3">
+        <methods>
+          <include name="enterLogin"/>
+          <include name="verifyfacebookTitle"/>
+          <include name="launchFacebook"/>
+          <include name="closeFacebook"/>
+        </methods>
+      </class> <!-- regression.NewTest3 -->
+      <class name="com.org.learningMaven.myMavenProject.NewTest2">
+        <methods>
+          <include name="launchFacebook"/>
+          <include name="closeFacebook"/>
+          <include name="verifyfacebookTitle"/>
+          <include name="enterLogin"/>
+        </methods>
+      </class> <!-- com.org.learningMaven.myMavenProject.NewTest2 -->
+    </classes>
+  </test> <!-- Tye test(failed) -->
+</suite> <!-- Failed suite [Tye suite] -->

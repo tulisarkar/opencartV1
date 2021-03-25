@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" name="Failed suite [parallelsuite]">
+  <test name="chrometest(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.org.learningMaven.myMavenProject.ParamTest">
+        <methods>
+          <include name="chooseBrowser" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.org.learningMaven.myMavenProject.ParamTest -->
+    </classes>
+  </test> <!-- chrometest(failed) -->
+</suite> <!-- Failed suite [parallelsuite] -->

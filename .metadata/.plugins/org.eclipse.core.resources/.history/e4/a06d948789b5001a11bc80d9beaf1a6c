@@ -1,0 +1,27 @@
+package com.org.learningMaven.myMavenProject;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+
+public class auto3 {
+
+	public static void main(String[] args) {
+		String baseUrl="http://newtours.demoaut.com/";
+		System.setProperty("webdriver.gecko.driver", "./Drivers\\geckodriver.exe");
+		WebDriver driver= new FirefoxDriver();
+		driver.get(baseUrl);
+		String expTitle="Welcome:Mercury Tours";
+		String actTitle=driver.getTitle();
+		if (expTitle.equals(actTitle)) {
+			System.out.println("Testcase passed");
+			
+		}
+		else {
+			System.out.println("Testcase failed");
+			driver.close();
+		}
+	}
+}
+
+

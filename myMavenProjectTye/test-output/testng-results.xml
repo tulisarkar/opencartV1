@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="parallelsuite" duration-ms="61203" started-at="2020-04-04T14:57:07Z" finished-at="2020-04-04T14:58:08Z">
+    <groups>
+    </groups>
+    <test name="chrometest" duration-ms="17517" started-at="2020-04-04T14:57:07Z" finished-at="2020-04-04T14:57:24Z">
+      <class name="com.org.learningMaven.myMavenProject.ParamTest">
+        <test-method status="PASS" signature="chooseBrowser(java.lang.String)[pri:0, instance:com.org.learningMaven.myMavenProject.ParamTest@4c70fda8]" name="chooseBrowser" duration-ms="17486" started-at="2020-04-04T10:57:07Z" finished-at="2020-04-04T10:57:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chooseBrowser -->
+      </class> <!-- com.org.learningMaven.myMavenProject.ParamTest -->
+    </test> <!-- chrometest -->
+    <test name="firefoxtest" duration-ms="7264" started-at="2020-04-04T14:57:24Z" finished-at="2020-04-04T14:57:32Z">
+      <class name="com.org.learningMaven.myMavenProject.ParamTest">
+        <test-method status="PASS" signature="chooseBrowser(java.lang.String)[pri:0, instance:com.org.learningMaven.myMavenProject.ParamTest@42e26948]" name="chooseBrowser" duration-ms="7260" started-at="2020-04-04T10:57:24Z" finished-at="2020-04-04T10:57:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chooseBrowser -->
+      </class> <!-- com.org.learningMaven.myMavenProject.ParamTest -->
+    </test> <!-- firefoxtest -->
+    <test name="firefoxtest2" duration-ms="19638" started-at="2020-04-04T14:57:32Z" finished-at="2020-04-04T14:57:51Z">
+      <class name="com.org.learningMaven.myMavenProject.ParamTest">
+        <test-method status="PASS" signature="chooseBrowser(java.lang.String)[pri:0, instance:com.org.learningMaven.myMavenProject.ParamTest@4667ae56]" name="chooseBrowser" duration-ms="19635" started-at="2020-04-04T10:57:32Z" finished-at="2020-04-04T10:57:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chooseBrowser -->
+      </class> <!-- com.org.learningMaven.myMavenProject.ParamTest -->
+    </test> <!-- firefoxtest2 -->
+    <test name="firefoxtest3" duration-ms="16724" started-at="2020-04-04T14:57:51Z" finished-at="2020-04-04T14:58:08Z">
+      <class name="com.org.learningMaven.myMavenProject.ParamTest">
+        <test-method status="PASS" signature="chooseBrowser(java.lang.String)[pri:0, instance:com.org.learningMaven.myMavenProject.ParamTest@6eebc39e]" name="chooseBrowser" duration-ms="16720" started-at="2020-04-04T10:57:51Z" finished-at="2020-04-04T10:58:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chooseBrowser -->
+      </class> <!-- com.org.learningMaven.myMavenProject.ParamTest -->
+    </test> <!-- firefoxtest3 -->
+  </suite> <!-- parallelsuite -->
+</testng-results>

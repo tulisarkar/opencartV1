@@ -1,0 +1,39 @@
+package com.org.learningMaven.myMavenProject;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.Select;
+
+public class MT_001 {
+
+	public static void main(String[] args) {
+		String baseURL = "http://newtours.demoaut.com/mercurywelcome.php";
+		System.setProperty("webdriver.chrome.driver", "./Drivers\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+		driver.get(baseURL);
+		driver.manage().window().maximize();
+	    WebElement username = driver.findElement(By.name("userName"));
+	    username.sendKeys("tutorial");
+	    WebElement password = driver.findElement(By.name("password"));
+	    password.sendKeys("tutorial");
+	    WebElement signin = driver.findElement(By.name("login"));
+	    signin.click();
+	    WebElement roundtrip = driver.findElement(By.name("tripType"));
+	    roundtrip.click();
+	    new Select (driver.findElement(By.name("passCount"))).selectByVisibleText("2");
+	    new Select (driver.findElement(By.name("fromPort"))).selectByVisibleText("London");
+	    new Select (driver.findElement(By.name("fromMonth"))).selectByVisibleText("July");
+	    new Select (driver.findElement(By.name("fromDay"))).selectByVisibleText("25");
+	    new Select (driver.findElement(By.name("toPort"))).selectByVisibleText("Sydney");
+	    new Select (driver.findElement(By.name("toMonth"))).selectByVisibleText("August");
+	    new Select (driver.findElement(By.name("toDay"))).selectByVisibleText("25");
+	    
+	    driver.findElement(By.xpath("//font[contains(text(),'Business class')]]")).click();
+	    
+	  
+	    
+	}
+
+}

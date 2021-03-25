@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="78117" started-at="2020-07-04T15:59:12Z" finished-at="2020-07-04T16:00:30Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="78117" started-at="2020-07-04T15:59:12Z" finished-at="2020-07-04T16:00:30Z">
+      <class name="UserAcceptanceTest.NewTest4">
+        <test-method status="PASS" signature="verifyHomepageTitle()[pri:0, instance:UserAcceptanceTest.NewTest4@59f99ea]" name="verifyHomepageTitle" is-config="true" duration-ms="12" started-at="2020-07-04T12:00:04Z" finished-at="2020-07-04T12:00:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomepageTitle -->
+        <test-method status="PASS" signature="login()[pri:0, instance:UserAcceptanceTest.NewTest4@59f99ea]" name="login" duration-ms="5354" started-at="2020-07-04T12:00:04Z" finished-at="2020-07-04T12:00:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="gobackHome()[pri:0, instance:UserAcceptanceTest.NewTest4@59f99ea]" name="gobackHome" is-config="true" duration-ms="2320" started-at="2020-07-04T12:00:10Z" finished-at="2020-07-04T12:00:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gobackHome -->
+        <test-method status="PASS" signature="verifyHomepageTitle()[pri:0, instance:UserAcceptanceTest.NewTest4@59f99ea]" name="verifyHomepageTitle" is-config="true" duration-ms="3" started-at="2020-07-04T12:00:21Z" finished-at="2020-07-04T12:00:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomepageTitle -->
+        <test-method status="PASS" signature="bookTicket()[pri:1, instance:UserAcceptanceTest.NewTest4@59f99ea]" name="bookTicket" duration-ms="1" started-at="2020-07-04T12:00:21Z" finished-at="2020-07-04T12:00:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookTicket -->
+        <test-method status="PASS" signature="gobackHome()[pri:0, instance:UserAcceptanceTest.NewTest4@59f99ea]" name="gobackHome" is-config="true" duration-ms="4354" started-at="2020-07-04T12:00:21Z" finished-at="2020-07-04T12:00:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gobackHome -->
+      </class> <!-- UserAcceptanceTest.NewTest4 -->
+      <class name="RegressionTest.NewTest3">
+        <test-method status="PASS" signature="verifyHomepageTitle()[pri:0, instance:RegressionTest.NewTest3@ae45eb6]" name="verifyHomepageTitle" is-config="true" duration-ms="53" started-at="2020-07-04T11:59:54Z" finished-at="2020-07-04T11:59:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomepageTitle -->
+        <test-method status="PASS" signature="login()[pri:0, instance:RegressionTest.NewTest3@ae45eb6]" name="login" duration-ms="5443" started-at="2020-07-04T11:59:54Z" finished-at="2020-07-04T11:59:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="gobackHome()[pri:0, instance:RegressionTest.NewTest3@ae45eb6]" name="gobackHome" is-config="true" duration-ms="5341" started-at="2020-07-04T11:59:59Z" finished-at="2020-07-04T12:00:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gobackHome -->
+        <test-method status="PASS" signature="verifyHomepageTitle()[pri:0, instance:RegressionTest.NewTest3@ae45eb6]" name="verifyHomepageTitle" is-config="true" duration-ms="6" started-at="2020-07-04T12:00:15Z" finished-at="2020-07-04T12:00:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomepageTitle -->
+        <test-method status="PASS" signature="bookTicket()[pri:1, instance:RegressionTest.NewTest3@ae45eb6]" name="bookTicket" duration-ms="1" started-at="2020-07-04T12:00:15Z" finished-at="2020-07-04T12:00:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookTicket -->
+        <test-method status="PASS" signature="gobackHome()[pri:0, instance:RegressionTest.NewTest3@ae45eb6]" name="gobackHome" is-config="true" duration-ms="5235" started-at="2020-07-04T12:00:15Z" finished-at="2020-07-04T12:00:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gobackHome -->
+      </class> <!-- RegressionTest.NewTest3 -->
+      <class name="com.org.learningMaven.myMavenProject3.NewTest">
+        <test-method status="PASS" signature="verifyHomepageTitle()[pri:0, instance:com.org.learningMaven.myMavenProject3.NewTest@27efef64]" name="verifyHomepageTitle" duration-ms="12041" started-at="2020-07-04T11:59:35Z" finished-at="2020-07-04T11:59:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomepageTitle -->
+      </class> <!-- com.org.learningMaven.myMavenProject3.NewTest -->
+      <class name="com.org.learningMaven.myMavenProject3.NewTest2">
+        <test-method status="PASS" signature="launchWebsite()[pri:0, instance:com.org.learningMaven.myMavenProject3.NewTest2@68c4039c]" name="launchWebsite" is-config="true" duration-ms="6438" started-at="2020-07-04T11:59:12Z" finished-at="2020-07-04T11:59:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchWebsite -->
+        <test-method status="PASS" signature="launchWebsite()[pri:0, instance:RegressionTest.NewTest3@ae45eb6]" name="launchWebsite" is-config="true" duration-ms="7409" started-at="2020-07-04T11:59:18Z" finished-at="2020-07-04T11:59:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchWebsite -->
+        <test-method status="PASS" signature="launchWebsite()[pri:0, instance:UserAcceptanceTest.NewTest4@59f99ea]" name="launchWebsite" is-config="true" duration-ms="9544" started-at="2020-07-04T11:59:26Z" finished-at="2020-07-04T11:59:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchWebsite -->
+        <test-method status="PASS" signature="verifyHomepageTitle()[pri:0, instance:com.org.learningMaven.myMavenProject3.NewTest2@68c4039c]" name="verifyHomepageTitle" is-config="true" duration-ms="29" started-at="2020-07-04T11:59:47Z" finished-at="2020-07-04T11:59:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomepageTitle -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.org.learningMaven.myMavenProject3.NewTest2@68c4039c]" name="login" duration-ms="6011" started-at="2020-07-04T11:59:47Z" finished-at="2020-07-04T11:59:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="gobackHome()[pri:0, instance:com.org.learningMaven.myMavenProject3.NewTest2@68c4039c]" name="gobackHome" is-config="true" duration-ms="475" started-at="2020-07-04T11:59:53Z" finished-at="2020-07-04T11:59:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gobackHome -->
+        <test-method status="PASS" signature="verifyHomepageTitle()[pri:0, instance:com.org.learningMaven.myMavenProject3.NewTest2@68c4039c]" name="verifyHomepageTitle" is-config="true" duration-ms="13" started-at="2020-07-04T12:00:12Z" finished-at="2020-07-04T12:00:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomepageTitle -->
+        <test-method status="PASS" signature="bookTicket()[pri:1, instance:com.org.learningMaven.myMavenProject3.NewTest2@68c4039c]" name="bookTicket" duration-ms="2" started-at="2020-07-04T12:00:12Z" finished-at="2020-07-04T12:00:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookTicket -->
+        <test-method status="PASS" signature="gobackHome()[pri:0, instance:com.org.learningMaven.myMavenProject3.NewTest2@68c4039c]" name="gobackHome" is-config="true" duration-ms="3131" started-at="2020-07-04T12:00:12Z" finished-at="2020-07-04T12:00:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gobackHome -->
+        <test-method status="PASS" signature="closeWebsite()[pri:0, instance:com.org.learningMaven.myMavenProject3.NewTest2@68c4039c]" name="closeWebsite" is-config="true" duration-ms="847" started-at="2020-07-04T12:00:25Z" finished-at="2020-07-04T12:00:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWebsite -->
+        <test-method status="PASS" signature="closeWebsite()[pri:0, instance:RegressionTest.NewTest3@ae45eb6]" name="closeWebsite" is-config="true" duration-ms="1802" started-at="2020-07-04T12:00:26Z" finished-at="2020-07-04T12:00:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWebsite -->
+        <test-method status="PASS" signature="closeWebsite()[pri:0, instance:UserAcceptanceTest.NewTest4@59f99ea]" name="closeWebsite" is-config="true" duration-ms="2208" started-at="2020-07-04T12:00:28Z" finished-at="2020-07-04T12:00:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWebsite -->
+      </class> <!-- com.org.learningMaven.myMavenProject3.NewTest2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

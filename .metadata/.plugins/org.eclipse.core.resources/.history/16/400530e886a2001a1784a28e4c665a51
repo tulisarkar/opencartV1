@@ -1,0 +1,14 @@
+package Functional;
+
+public class TC002 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int a = 20;
+		int b = 30;
+		int c = 40;
+		System.out.println(c>a);
+
+	}
+
+}

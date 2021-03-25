@@ -1,0 +1,10 @@
+package com.org.learningMaven.myMavenProject;
+
+public class MT_001 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

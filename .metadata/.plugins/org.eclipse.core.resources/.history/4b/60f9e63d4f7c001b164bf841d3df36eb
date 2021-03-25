@@ -1,0 +1,12 @@
+package day24;
+
+public class TextFileOperations {
+
+	public static void main(String[] args) {
+		//create a new file
+		File myfile=new File("");
+		
+
+	}
+
+}

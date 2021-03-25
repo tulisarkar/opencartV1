@@ -1,0 +1,19 @@
+package Functional;
+
+public class TC001 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+        System.out.println("Hello Class");        	
+        System.out.println("MY first java code");
+        boolean a= true;
+        int age = 37;
+        double price=25.50;
+        char gender='F';
+        
+        System.out.println("a");
+        System.out.println("37");
+        System.out.println("25.50");
+        System.out.println('F');
+	}
+}
